@@ -6,7 +6,7 @@ Gearbeitet wurde mit Open JDK 19.
 
 Bei Projekt handelt es sich um ein Maven-Projekt.
 
-Als Editor wurde  IntelliJ Community Edition verwendet. Um auch Benchmarks mit hoher Elementzahl durchzuführen, musste eine JVM-Einstellung vorgenommen werden. In IntelliJ geht man dafür oben rechts neben dem Hammer auf die "Run-Configuration". Bei der aktuellen (wenn vorhanden) oder einer neuen Konfiguration kann dann "Modify Options" -> "Add VM Options" -> Eintragen "-Xmx8192m", bzw. 8192 durch 60% des aktuellen Hauptspeichers ersetzen. 
+Als Editor wurde  IntelliJ Community Edition verwendet. Um auch Benchmarks mit hoher Elementzahl durchzuführen, musste eine JVM-Einstellung vorgenommen werden. In IntelliJ geht man dafür oben rechts neben dem Hammer auf die "Run-Configuration". Bei der aktuellen (wenn vorhanden) oder einer neuen Konfiguration (wenn nicht vorhanden -> Maven Template) kann dann "Modify Options" -> "Add VM Options" -> Eintragen "-Xmx8192m", bzw. 8192 durch 50% des aktuellen Hauptspeichers ersetzen. 
 
 ## Anwendung
 Die Hauptklasse ist Controller. In der main-Methode müssen einfach die gewollten Use Cases ein oder auskommentiert werden. Sie werden dann jeweils ausgeführt und dokumentiert. 
