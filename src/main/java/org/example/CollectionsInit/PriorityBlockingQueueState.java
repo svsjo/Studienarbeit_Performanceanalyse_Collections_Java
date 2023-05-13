@@ -30,7 +30,7 @@ public class PriorityBlockingQueueState implements MinimumStateObject
         this.InitHelperCollection(elements);
     }
 
-    @TearDown(Level.Trial)
+    @TearDown(Level.Iteration)
     public void TearDown()
     {
         this.collection.clear();

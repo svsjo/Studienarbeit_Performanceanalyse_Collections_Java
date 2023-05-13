@@ -31,7 +31,7 @@ public class ArrayDequeState implements MinimumStateObject
         this.InitHelperCollection(elements);
     }
 
-    @TearDown(Level.Trial)
+    @TearDown(Level.Iteration)
     public void TearDown()
     {
         collection.clear();

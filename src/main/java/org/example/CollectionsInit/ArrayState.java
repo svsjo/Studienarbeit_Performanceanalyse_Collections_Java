@@ -28,7 +28,7 @@ public class ArrayState implements MinimumStateObject
         this.InitHelperCollection(elements);
     }
 
-    @TearDown(Level.Trial)
+    @TearDown(Level.Iteration)
     public void TearDown()
     {
         for (int i = 0; i < collection.length; ++i)
