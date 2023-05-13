@@ -2,11 +2,11 @@
  Code zur Durchführung der Benchmarks der Studienarbeit "Analyse von Collection Frameworks - Grundlagen und Performanceevaluation am Beispiel von Java".
 
 ## Anforderungen
-Gearbeitet wurde mit Open JDK 19. 
+Gearbeitet wurde mit Open JDK 19, welches vorher installiert sein muss. 
 
-Bei Projekt handelt es sich um ein Maven-Projekt.
+Bei Projekt handelt es sich um ein Maven (4) - Projekt.
 
-Als Editor wurde  IntelliJ Community Edition verwendet. Um auch Benchmarks mit hoher Elementzahl durchzuführen, musste eine JVM-Einstellung vorgenommen werden. In IntelliJ geht man dafür oben rechts neben dem Hammer auf die "Run-Configuration". Bei der aktuellen (wenn vorhanden) oder einer neuen Konfiguration (wenn nicht vorhanden -> Maven Template) kann dann "Modify Options" -> "Add VM Options" -> Eintragen "-Xmx8192m", bzw. 8192 durch 50% des aktuellen Hauptspeichers ersetzen. 
+Als Editor wurde  IntelliJ Community Edition verwendet. Um auch Benchmarks mit hoher Elementzahl durchzuführen, musste eine JVM-Einstellung vorgenommen werden. In IntelliJ geht man dafür oben rechts neben dem Hammer auf die "Run-Configuration". Sollte noch keine Konfiguration angezeigt werden, empfiehlt es sich im Controller.java (Zeile 15 links) auf das Play zu drücken um es einmalig auszuführen. Dies kann auch wieder abgebrochen werden. Folgend ist die Konfiguration vorhanden und kann editiert werden: "Modify Options" -> "Add VM Options" -> Eintragen "-Xmx8192m", bzw. 8192 durch 50% des aktuellen Hauptspeichers ersetzen. 
 
 ## Anwendung
 Die Hauptklasse ist Controller. In der main-Methode müssen einfach die gewollten Use Cases ein oder auskommentiert werden. Sie werden dann jeweils ausgeführt und dokumentiert. 
